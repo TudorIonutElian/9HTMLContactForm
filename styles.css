@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/* ----- Container Header CSS Rules -----*/
+#container {
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #fff;
+}
+
+#container-header {
+    height: 20%;
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: #CCEDFE;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+/* ----- Container Body CSS Rules -----*/
+#container-body {
+    padding: 20px;
+}
+.input-email {
+    background-color: rgba(224, 213, 213, 0.7);    
+    padding: 30px;
+    margin-bottom: 5px;
+}
+.input-email h4,
+.input-email input,
+.input-email p,
+.input-name h4,
+.input-radio h4{
+    margin: 5px 0;
+}
+.input-email input {
+    display: inline-block;
+    padding: 5px;
+    width: 60%;
+}
+
+.input-name {    
+    padding: 30px;
+}
+.input-name input {
+    display: inline-block;
+    padding: 5px;
+    width: 30%;
+}
+.input-radio {
+    padding: 30px;
+}
+.input-radio input{
+    display: inline-block;
+    margin-bottom: 3px;
+    color: #000;
+}
+
+/* ----- Container Footer CSS Rules -----*/
+#container-footer {
+    padding-left: 30px;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    min-width: 10%;
+    text-decoration: none;
+    background-color: #0981e4b3; 
+    margin: 5px 5px 5px 20px;  
+    color: #fff;
+    font-weight: 900;
+}
